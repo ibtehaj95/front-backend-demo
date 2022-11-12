@@ -1,0 +1,19 @@
+{
+  "name": "project_seaclear-demo",
+  "version": "1.0.0",
+  "description": "Seaclear project demo for interview at Fraunhofer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marine-pollution",
+    "database"
+  ],
+  "author": "Ibtehaj",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nedb": "^1.8.0"
+  }
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: whitesmoke;
+    background-color: rgb(127, 179, 234);
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+    margin: 2vh 0%;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.sidebar{
+    width: 20%;
+    height: 70vh;
+    margin: 4% 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyContainer{
+    width: 80%;
+    margin: 2%;
+    border: 2px solid white;
+    background-color: lightgray ;
+    color: rgb(87, 86, 86);
+}
+
+.hide{
+    display: none;
+}
+
+.sbElement{
+    background-color: rgb(47, 133, 104);
+    padding: 5% 2%;
+    margin: 1% 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bdElement{
+    text-align: center;
+}
+
+#bdReport{
+    margin: 2%;
+    text-align: initial;
+}

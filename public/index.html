@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seaclear Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seaclear</h1>
+    <div class="mainContainer">
+        <div class="sidebar">
+            <div class="sbElement" id="sbHome">Home</div>
+            <div class="sbElement" id="sbReport">Report Debris</div>
+            <div class="sbElement" id="sbDatabase">View Ongoing Operations</div>
+            <div class="sbElement" id="sbAbout">About</div>
+        </div>
+        <div class="bodyContainer">
+            <div class="bdElement" id="bdHome">
+                <h2>Welcome to the homepage of the Seaclear Project</h2>
+            </div>
+            <div class="bdElement hide" id="bdReport">
+                <form>
+                    <div class="field">
+                        <span>Name: </span>
+                        <input type="text" name="sname" id="sname" style="display: inline;">
+                    </div>
+                    <div class="field">
+                        <span>Latitude: </span>
+                        <input type="number" name="lat" id="lat" style="display: inline;">
+                    </div>
+                    <div class="field">
+                        <span>Longitude: </span>
+                        <input type="number" name="long" id="long" style="display: inline;">
+                    </div>
+                    <div class="button-div">
+                        <input type="button" value="Submit" id="sub-button">
+                    </div>
+                </form>
+            </div>
+            <div class="bdElement hide" id="bdDatabase">
+    
+            </div>
+            <div class="bdElement hide" id="bdAbout">
+                <h3>Seaclear is a project to keep our waters clean</h3>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
